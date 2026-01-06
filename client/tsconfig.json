@@ -1,0 +1,17 @@
+{
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "hooks/*": ["src/hooks/*"],
+      "servicios/*": ["src/servicios/*"],
+      "utilidades/*": ["src/utilidades/*"],
+      "componentes/*": ["src/componentes/*"],
+      "assets/*": ["src/assets/*"]
+    }
+  }
+}
